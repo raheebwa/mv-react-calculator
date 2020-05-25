@@ -12,7 +12,7 @@ To Design a calculator App in react
 
 ### Live Demo
 
-The live demo is [ramar_calc](https://ramar_calc.herokuapp.com/)
+The live demo is [ramar-calc](https://ramar-calc.herokuapp.com/)
 
 ### Project Highlights & Emphasis
 
