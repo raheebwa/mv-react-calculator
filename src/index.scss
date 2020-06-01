@@ -11,3 +11,27 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+// Display
+#display{
+  background-color: #907F7D;
+  text-align: right;
+  padding: 10px;
+  color: white;
+  font-weight: bold;
+  font-size: 24px;
+}
+  
+
+// Calc
+#whole-calc{
+  padding-top: 15vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  div{
+    width: 600px;
+  }
+}
+  
