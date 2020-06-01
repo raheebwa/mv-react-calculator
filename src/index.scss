@@ -5,11 +5,29 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-size: 25px;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+
+// Button Panel
+.button-panel {
+  display: flex;
+    &:last-child{
+      flex-basis: 50%;
+    }
+
+    .key-button{
+      padding: 20px;
+      flex-basis: 25%;
+      &:first-child{
+        flex-basis: 50%;
+      }
+    }
 }
 
 
@@ -34,4 +52,3 @@ code {
     width: 600px;
   }
 }
-  

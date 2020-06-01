@@ -36,7 +36,7 @@ const buttonGroups = [
 ];
 
 const buttonGroupsElements = buttonGroups.map((prop, i) => (
-  <div id="button-panel" key={prop.key}>{buttons.slice((i * 4), ((i * 4) + 4))}</div>
+  <div className="button-panel" key={prop.key}>{buttons.slice((i * 4), ((i * 4) + 4))}</div>
 ));
 
 function ButtonPanel() {
