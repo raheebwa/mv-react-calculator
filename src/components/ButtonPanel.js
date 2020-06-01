@@ -33,7 +33,9 @@ const buttons = buttonsProps.map((prop, i) => {
     props.width = true;
   }
 
-  return <Button {...props} />;
+  return (
+    <Button key={props.key} name={props.name} width={props.width} color={props.color} />
+  );
 });
 
 const buttonGroups = [

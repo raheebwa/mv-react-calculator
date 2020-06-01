@@ -13,6 +13,7 @@ function Button({ name, color, width }) {
 Button.propTypes = {
   name: PropTypes.string.isRequired,
   width: PropTypes.string.isRequired,
+  color: PropTypes.string,
 };
 
 Button.defaultProps = {
