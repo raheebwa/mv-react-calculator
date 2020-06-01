@@ -23,7 +23,7 @@ const buttonsProps = [
   { key: 19, name: '=' },
 ];
 
-const buttons = buttonsProps.map((prop) => (
+const buttons = buttonsProps.map(prop => (
   <Button key={prop.key} name={prop.name} />
 ));
 
