@@ -29,6 +29,12 @@ code {
     }
 
     .key-button{
+      font-size: 18px;
+  border-radius: 0;
+  border: none;
+  border-left: 1px solid #B8B6B4;
+  border-right: 1px solid #B8B6B4;
+  border-bottom: 1px solid #B8B6B4;
       padding: 20px;
       flex-basis: 25%;
       &:first-child{
