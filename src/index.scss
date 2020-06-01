@@ -24,6 +24,7 @@ code {
 // Button Panel
 .button-panel {
   display: flex;
+  flex-basis: 100px;
     &:last-child{
       flex-basis: 50%;
     }
@@ -49,6 +50,10 @@ code {
   background-color: #907F7D;
   text-align: right;
   padding: 10px;
+  flex-basis: 100px ;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
   color: white;
   font-weight: bold;
   font-size: 24px;
