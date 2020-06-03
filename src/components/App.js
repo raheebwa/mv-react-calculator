@@ -4,10 +4,12 @@ import ButtonPanel from './ButtonPanel';
 
 function App() {
   return (
-    <>
-      <Display />
-      <ButtonPanel />
-    </>
+    <div id="whole-calc">
+      <div>
+        <Display />
+        <ButtonPanel />
+      </div>
+    </div>
   );
 }
 

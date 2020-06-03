@@ -23,9 +23,20 @@ const buttonsProps = [
   { key: 19, name: '=' },
 ];
 
-const buttons = buttonsProps.map(prop => (
-  <Button key={prop.key} name={prop.name} />
-));
+const btnColor = '#E3E1DE';
+const buttons = buttonsProps.map((prop, i) => {
+  const props = { ...prop, width: false, color: btnColor };
+
+  if ((i + 1) % 4 === 0 || prop.key === 19) {
+    delete props.color;
+  } else if (prop.name === '0') {
+    props.width = true;
+  }
+
+  return (
+    <Button key={props.key} name={props.name} width={props.width} color={props.color} />
+  );
+});
 
 const buttonGroups = [
   { key: 1 },
@@ -36,7 +47,7 @@ const buttonGroups = [
 ];
 
 const buttonGroupsElements = buttonGroups.map((prop, i) => (
-  <div key={prop.key}>{buttons.slice((i * 4), ((i * 4) + 4))}</div>
+  <div className="button-panel" key={prop.key}>{buttons.slice((i * 4), ((i * 4) + 4))}</div>
 ));
 
 function ButtonPanel() {
