@@ -22,7 +22,7 @@
     "test": "react-scripts test",
     "test:logic": "jest test/",
     "eject": "react-scripts eject",
-    "lint": "eslint src/ --fix"
+    "lint": "eslint src/ test/ --fix"
   },
   "eslintConfig": {
     "extends": "react-app"
