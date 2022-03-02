@@ -5,6 +5,7 @@
 #### Contributors
 
 - [Aheebwa Ramadhan](https://github.com/raheebwa)
+- [Danielle Neeleman](https://github.com/Techdaan1)
 
 ### Project Goal
 
